@@ -7,10 +7,10 @@ def yourname_password_gen():
     name = input("Enter user's name: ")
     lucky_numbercode = int(input("input your lucky number: "))
     rand_number = random.randint(1, 50)
-    print(rand_number)
+    #print(rand_number)
     # winninglottery_num = "30"
     for x in range(1):
-        if rand_number == 30:
+        if lucky_numbercode == 30:
             print("congratulations", name, "your lottery number is 30, you are the lucky winner")
         else:
             print("sorry", name, "check some other time")
